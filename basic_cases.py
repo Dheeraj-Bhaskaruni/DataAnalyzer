@@ -15,13 +15,13 @@ print(len(values[1]))
 # print(index_greater_than_neg100)
 # list of indexes where it is being greater than 0
 print('list for array 4')
-array_4_high = np.where(values[5] > -80)[0]
+array_4_high = np.where(values[5] > -100)[0]
 print(array_4_high)
 print('list for array 5')
-array_5_high = np.where(values[4] > -80)[0]
+array_5_high = np.where(values[4] > -100)[0]
 print(array_5_high)
 print('list for array 6')
-array_6_high = np.where(values[5] > -80)[0]
+array_6_high = np.where(values[5] > -100)[0]
 print(array_6_high)
 if array_5_high.size == 0 and array_6_high.size == 0:
     print('Not Checked out and not in cart')
