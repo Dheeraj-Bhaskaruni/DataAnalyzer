@@ -33,5 +33,5 @@ class DataAnalyzer:
 
 
 # Usage:
-analyzer = DataAnalyzer('crunch4/rawData.pkl')
+analyzer = DataAnalyzer('../crunch4/rawData.pkl')
 analyzer.analyze_data()

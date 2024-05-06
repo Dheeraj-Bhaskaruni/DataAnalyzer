@@ -16,7 +16,7 @@ def check(a, b, c):
 
 def main():
     # Load the .pkl file
-    data = pd.read_pickle('crunch1/rawData.pkl')
+    data = pd.read_pickle('../crunch1/rawData.pkl')
 
     # Deleting unused timestamp data
     del data['time']

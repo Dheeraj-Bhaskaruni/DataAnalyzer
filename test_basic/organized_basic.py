@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the .pkl file
-data = pd.read_pickle('crunch1/rawData.pkl')
+data = pd.read_pickle('../crunch1/rawData.pkl')
 
 
 def arr_process(arr):
