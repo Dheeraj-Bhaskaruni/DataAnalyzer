@@ -11,13 +11,15 @@ class DataAnalyzer:
 
     def check(self, a, b, c):
         if b == 0 and c == 0:
-            return 'Not Checked out and not in cart'
+            return 'Not Checked out and not in bag'
         elif b != 0 and c == 0:
             return 'Checked out but not in bag'
         elif b != 0 and c != 0:
-            return 'Checked out and in cart'
+            return 'Checked out and in bag'
         elif b == 0 and c != 0:
-            return 'Not checked out but in cart'
+            return 'Not checked out but in bag'
+
+
 
     def analyze_data(self):
         # Deleting unused timestamp data
@@ -31,5 +33,5 @@ class DataAnalyzer:
 
 
 # Usage:
-analyzer = DataAnalyzer('crunch1/rawData.pkl')
+analyzer = DataAnalyzer('crunch4/rawData.pkl')
 analyzer.analyze_data()
